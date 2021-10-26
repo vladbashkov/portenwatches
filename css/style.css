@@ -602,7 +602,7 @@ footer {
 		display: block;
 		position: absolute;
 		top: 0;
-		right: 15%;
+		right: 8%;
 		height: 40px;
 		width: 40px;
 		background: none;
@@ -697,7 +697,7 @@ footer {
 
 	.swiper {
 		display: block;
-		width: 100%;
+		width: 70%;
 		margin-top: 20px;
 	}
 
@@ -718,20 +718,33 @@ footer {
 		width: 100%;
 	}
 
+	.col-7-padding {
+		padding: 30px 0;
+	}
+
 	.col-3 {
 		width: 100%;
 	}
 
 	.watches {
-		padding: 40px 0;
+		padding: 10px;
+	}
+
+	.watches-img {
+		min-width: 200px;
+		min-height: 200px;
 	}
 
 	.new-arrivals {
-		padding: 40px 0;
+		padding: 30px 0;
 	}
 
 	.examples {
-		margin-top: 0;
+		margin: 0 auto;
+	}
+
+	.our-brands {
+		padding: 30px 0;
 	}
 
 	.collapse-screen {
@@ -740,22 +753,43 @@ footer {
 	.about {
 		flex-direction: column;
 		text-align: center;
-		padding: 40px 0;
+		padding: 20px 0;
 		align-items: stretch;
+	}
+
+	.footer-category {
+		margin: 5px 10px;
+		padding: 10px;
+	}
+	.footer-title {
+		margin-bottom: 20px;
 	}
 	.footer-col {
 		padding: 0;
 		margin: 15px 0;
 		width: 100%;
 	}
+	.footer-input {
+		width: 50%;
+	}
 	.footer-btn {
-		width: 100%;
+		width: 50%;
 	}
 }
 
 @media (max-width: 449px) {
 	.header-open_menu {
 		bottom: 25px;
+	}
+	.swiper {
+		width: 85%;
+	}
+	.brands-img {
+		min-height: 65px;
+		width: 100%;
+	}
+	.catalogue-btn {
+		padding: 10px;
 	}
 }
 
