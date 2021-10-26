@@ -35,10 +35,10 @@ const swiper = new Swiper('.swiper', {
     },
 
 
-    // autoplay: {
-    //     delay: 3000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+    },
   
     // And if we need scrollbar
     scrollbar: {
